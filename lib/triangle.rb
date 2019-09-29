@@ -1,5 +1,4 @@
 class Triangle
-  
   def initialize(s1, s2, s3)
     @s1 = s1
     @s2 = s2
@@ -21,6 +20,7 @@ class Triangle
       end
     end
   end
-
-  class TriangleError < StandardError
+end
+  
+class TriangleError < StandardError
 end
